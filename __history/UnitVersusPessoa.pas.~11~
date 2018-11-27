@@ -1,0 +1,88 @@
+unit UnitVersusPessoa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons;
+
+type
+  TFormVersusPessoa = class(TForm)
+    Panel1: TPanel;
+    Label1: TLabel;
+    LabelNomeJogador: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    EditJogador1: TEdit;
+    EditJogador2: TEdit;
+    btnIniciar: TButton;
+    btn11: TSpeedButton;
+    btn12: TSpeedButton;
+    btn13: TSpeedButton;
+    btn21: TSpeedButton;
+    btn22: TSpeedButton;
+    btn23: TSpeedButton;
+    btn31: TSpeedButton;
+    btn32: TSpeedButton;
+    btn33: TSpeedButton;
+    procedure btnIniciarClick(Sender: TObject);
+    procedure btn11Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormVersusPessoa: TFormVersusPessoa;
+  vezDe : Boolean;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormVersusPessoa.btn11Click(Sender: TObject);
+begin
+    if(vezDe = true)then
+    begin
+        TSpeedButton(Sender).Caption := 'X';
+
+        vezDe := False;
+        LabelNomeJogador.Caption := EditJogador2.Text
+
+    end
+    else
+    begin
+        TSpeedButton(Sender).Caption := '0';
+
+        vezDe := True;
+        LabelNomeJogador.Caption := EditJogador1.Text
+    end;
+end;
+
+procedure TFormVersusPessoa.btnIniciarClick(Sender: TObject);
+begin
+
+
+  //se não preencheu o nome 1 OU não preencheu o nome 2
+  if (EditJogador1.Text = '') OR (EditJogador2.Text = '')then
+  begin
+     ShowMessage('Os dois nomes são obrigatórios!');
+  end
+  else
+  begin
+     EditJogador1.Enabled := False;
+     EditJogador2.Enabled := False;
+
+     //VezDe := true -> Jogador1 (X) Vai jogar
+     vezDe := true;
+     //muda o nome do jogador no label
+     LabelNomeJogador.Caption := EditJogador1.Text;
+
+
+
+  end;
+
+end;
+
+end.

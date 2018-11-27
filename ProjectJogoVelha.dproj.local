@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/08/17 21:48:03.000.668,=C:\Users\64442\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/08/17 21:49:33.000.117,C:\Users\64442\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\64442\Desktop\Turma2\JogoVelha\UnitMenu.pas</Transaction>
+    <Transaction>2018/08/17 21:49:33.000.117,C:\Users\64442\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\64442\Desktop\Turma2\JogoVelha\UnitMenu.dfm</Transaction>
+    <Transaction>2018/08/17 21:49:43.000.227,C:\Users\64442\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\64442\Desktop\Turma2\JogoVelha\ProjectJogoVelha.dproj</Transaction>
+    <Transaction>2018/08/17 21:59:33.000.308,=C:\Users\64442\Desktop\Turma2\JogoVelha\Unit1.pas</Transaction>
+    <Transaction>2018/08/17 21:59:49.000.386,C:\Users\64442\Desktop\Turma2\JogoVelha\Unit1.dfm=C:\Users\64442\Desktop\Turma2\JogoVelha\UnitVersusPessoa.dfm</Transaction>
+    <Transaction>2018/08/17 21:59:49.000.386,C:\Users\64442\Desktop\Turma2\JogoVelha\Unit1.pas=C:\Users\64442\Desktop\Turma2\JogoVelha\UnitVersusPessoa.pas</Transaction>
+  </Transactions>
+</BorlandProject>

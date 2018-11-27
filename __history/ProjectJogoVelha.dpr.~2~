@@ -1,0 +1,14 @@
+program ProjectJogoVelha;
+
+uses
+  Vcl.Forms,
+  UnitMenu in 'UnitMenu.pas' {FormMenu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormMenu, FormMenu);
+  Application.Run;
+end.

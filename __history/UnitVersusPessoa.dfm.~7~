@@ -1,0 +1,210 @@
+object FormVersusPessoa: TFormVersusPessoa
+  Left = 0
+  Top = 0
+  Caption = 'Versus Pessoa'
+  ClientHeight = 526
+  ClientWidth = 335
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btn11: TSpeedButton
+    Left = 17
+    Top = 176
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn12: TSpeedButton
+    Left = 119
+    Top = 176
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn13: TSpeedButton
+    Left = 228
+    Top = 176
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn21: TSpeedButton
+    Left = 23
+    Top = 288
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn22: TSpeedButton
+    Left = 119
+    Top = 288
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn23: TSpeedButton
+    Left = 228
+    Top = 288
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn31: TSpeedButton
+    Left = 17
+    Top = 403
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn32: TSpeedButton
+    Left = 119
+    Top = 403
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object btn33: TSpeedButton
+    Left = 228
+    Top = 403
+    Width = 90
+    Height = 90
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -67
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 335
+    Height = 161
+    Align = alTop
+    TabOrder = 0
+    object Label3: TLabel
+      Left = 17
+      Top = 101
+      Width = 79
+      Height = 18
+      Caption = 'Jogador 1:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 228
+      Top = 101
+      Width = 79
+      Height = 18
+      Caption = 'Jogador 2:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label1: TLabel
+      Left = 17
+      Top = 40
+      Width = 126
+      Height = 24
+      Caption = 'Vez de:'
+      Font.Charset = OEM_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -27
+      Font.Name = 'Terminal'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object LabelNomeJogador: TLabel
+      Left = 149
+      Top = 40
+      Width = 162
+      Height = 24
+      Caption = 'Jogador 1'
+      Font.Charset = OEM_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -27
+      Font.Name = 'Terminal'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object EditJogador1: TEdit
+      Left = 17
+      Top = 125
+      Width = 90
+      Height = 21
+      TabOrder = 0
+      TextHint = 'Digite seu nome'
+    end
+    object EditJogador2: TEdit
+      Left = 228
+      Top = 125
+      Width = 90
+      Height = 21
+      TabOrder = 1
+      TextHint = 'Digite seu nome'
+    end
+    object btnIniciar: TButton
+      Left = 113
+      Top = 123
+      Width = 90
+      Height = 25
+      Caption = 'Iniciar'
+      TabOrder = 2
+      OnClick = btnIniciarClick
+    end
+  end
+end
